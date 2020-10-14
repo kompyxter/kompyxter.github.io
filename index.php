@@ -7,7 +7,6 @@
 <link rel="stylesheet" type="text/css" href=".css">
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
-<body>
- <h1><?echo ("Hello, php") ?></h1>
+<body> <? echo ("Hello, php") ?>
 </body>
 </html>
