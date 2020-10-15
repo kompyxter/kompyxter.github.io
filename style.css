@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Noto Sans', sans-serif;
+	color: #fff;
+	background: #aaaccc;
+}
+header {
+	background: dodgerblue;
+	height: 7.5em;
+	display: flex;
+}
+#logo {
+	font-size: 1.5em;
+	padding-left: 1.1em;
+	padding-top: 1.5em;
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+	font-size: 1.2em;
+	padding-left: 7em;
+	padding-top: 2.4em;
+	color: #fff;
+}
+@media (max-width: 360px) {
+
+	header {
+		flex-direction: column;
+		height: 27em;
+		
+		justify-content: center;
+	}
+	#logo {
+ 	padding-left: 2.5em;
+	}
+}
+@media (max-width: 850px) {
+	a {
+		margin-left: -4em;
+	}
+}
+@media (max-width: 540px) {
+	a {
+		margin-left: -6em;
+		padding-top: -0.3em;
+	}
+	#logo {
+		margin-left: -0.8em;
+	}
+}
