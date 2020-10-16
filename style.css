@@ -25,8 +25,40 @@ a {
 	padding-top: 2.4em;
 	color: #fff;
 }
+#content {
+	background: #f60;
+	width: 35%;
+	height: 38em;
+	padding: 1em;
+	margin: 1em;
+	margin-top: 1em;
+	display: inline-block;
+}
+#content-2 {
+	background: lightgreen;
+	width: 35%;
+	height: 38em;
+	padding: 1em;
+	margin: 1em;
+	margin-top: 1em;
+	color: #000;
+	display: inline-block;
+}
+#content h1 {
+	display: flex;
+	justify-content: center;
+}
 @media (max-width: 360px) {
-
+	#content {
+		width: 80%;
+		margin: 0.1em;
+		height: 55.5em;
+	}
+	#content-2{
+	width: 80%;
+	margin: 0.1em;
+	height: 55.5em;
+	}
 	header {
 		flex-direction: column;
 		height: 27em;
@@ -37,9 +69,15 @@ a {
  	padding-left: 2.5em;
 	}
 }
-@media (max-width: 850px) {
+@media (min-width: 361px) and (max-width: 850px) {
 	a {
 		margin-left: -4em;
+	}
+	#content {
+		height: 42em;
+	}
+	#content-2 {
+		height: 42em;
 	}
 }
 @media (max-width: 540px) {
