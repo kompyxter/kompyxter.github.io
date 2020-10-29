@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #c0b5d4;
+}
+body {
+	font-family: 'Arial';
+	background-image: url(https://forcedrop.top/public/img/background.jpg?v=5);
+}
+header {
+	background-color: #171321;
+	height: 40px;
+	display: flex;
+	padding-top: 1.4em;
+	padding-left: 1.1em;
+}
+header a {
+	color: #c0b5d4;
+	padding-left: 1.5em;
+	flex-direction: row;
+}
+#ru {
+	width: 1.9em;
+	height: 1.5em;
+ 	padding-left: 1.5em;
+}
+#sound {
+ margin-top: -1.3em;
+ width: 1.55em;
+ padding-left: 13em;
+}
+header img {
+	cursor: pointer;
+}
+#tik {
+	width: 2em;
+	padding-left: 4em;
+}
+#face,#inst,#telegram,#vk,#twitter {
+	width: 2em;
+	padding-left: 1em;
+}
+#logo {
+	width: 11em;
+	margin-left: 5em;
+	margin-top: 2em;
+}
+#buttons {
+	
+}
+#buttons a {
+	color: #c0b5d4;
+}
+#contract {
+	margin-left: 1em;
+}
+#battle,#up,#wheel,#card {
+	margin-left: 1.5em;
+}
+#logo2 {
+	margin-top: 30%;
+	display: flex;
+	margin-left: 35%;
+}
+#csgo {
+	margin-left: 40%;
+	color: #fff;
+}
+#case {
+	margin-top: 10em;
+	width: 15em;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
