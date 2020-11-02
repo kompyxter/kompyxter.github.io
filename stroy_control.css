@@ -1,0 +1,147 @@
+#logo {
+margin-top: 8.5px;
+margin-left: 37.33px;
+}
+#img2 {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#cars {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+body {
+	font-family: 'Arial';
+}
+header {
+	margin-top: -31px;
+	display: flex;
+}
+
+#main {
+	color: #036FC7;
+	margin-left: 450px;
+	display: flex;
+}
+a {
+	text-decoration: none;
+}
+a:not(#main,#demo) {
+	color: #72787D;
+}
+#product,#about,#process,#nadezhnost,#klient,#contact {
+	margin-left: 23px;
+	color: #72787D;
+}
+#main,#product,#about,#process,#nadezhnost,#klient,#contact {
+	font-size: 16px;
+}
+#demo {
+	margin-top: -8px;
+	margin-left: 40px;
+	background: #212B31;
+	color: #fff;
+	width: 150px;
+	border-radius: 4px;
+	height: 34px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#dostavka {
+	font-size: 48px;
+	display: flex;
+	justify-content: center;
+	margin-top: 1.8em;
+}
+#demo2 {
+margin-left: 26em;
+background: #212B31;
+color: #fff;
+width: 150px;
+border-radius: 4px;
+height: 34px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 3em;
+}
+#podrobnee {
+	background: #fff;
+	color: #000;
+	border: 3px solid #DADEDF;
+	width: 150px;
+	height: 34px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 48em;
+	margin-top: -2.3em;
+}
+ @media (max-width: 1000px) {
+ 	#demo2 {
+ 		margin-left: 1em;
+ 	}
+ 	#dostavka {
+ 		font-size: 28px;
+ 	}
+ 	#podrobnee {
+ 		margin-left: 11em;
+ 	}
+ 	#img2,#cars {
+ 		width: 100%;
+ 	}
+ }
+@media (max-width: 1265px) {
+	header {
+		margin-left: -260px;
+	}
+	#demo {
+		border-radius: 2px;
+	}
+	#logo {
+		margin-left: 5px;
+		width: 150px;
+	}
+	#product,#about,#process,#nadezhnost,#klient,#contact,#main {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 870px) {
+#product,#about,#process,#nadezhnost,#klient,#contact,#main,#demo {
+	}
+		header {
+		margin-left: -280px;
+		}
+}
+@media (min-width: 301px) and (max-width: 450px) {
+	header {
+		margin-top: 15px;
+	}
+	#logo {
+		width: 200px;
+	}
+}
+@media (max-width: 300px) {
+	#logo {
+		width: 150px;
+		margin-left: 10px;
+	}
+
+		header {
+		flex-direction: column;
+		margin-left: -5px;
+		margin-top: 20px;
+	}
+	#demo {
+		margin-top: 30px;
+	}
+	#podrobnee {
+		margin-top: 1em;
+		margin-left: 0.9em;
+	}
+}
