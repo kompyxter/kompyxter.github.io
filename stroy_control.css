@@ -1,3 +1,4 @@
+
 #logo {
 margin-top: 8.5px;
 margin-left: 37.33px;
@@ -14,7 +15,7 @@ margin-left: 37.33px;
 
 }
 body {
-	font-family: 'Arial';
+	font-family: "Arial", sans-serif;
 }
 header {
 	margin-top: -31px;
@@ -94,26 +95,119 @@ margin-top: 3em;
  	#img2,#cars {
  		width: 100%;
  	}
- }
-@media (max-width: 1265px) {
-	header {
-		margin-left: -260px;
+ 		#product,#about,#process,#nadezhnost,#klient,#contact,#main {
+		font-size: 16px;
 	}
-	#demo {
+		#demo {
 		border-radius: 2px;
 	}
 	#logo {
 		margin-left: 5px;
 		width: 150px;
 	}
-	#product,#about,#process,#nadezhnost,#klient,#contact,#main {
-		font-size: 16px;
-	}
 }
 
-@media (max-width: 870px) {
-#product,#about,#process,#nadezhnost,#klient,#contact,#main,#demo {
+#eff {
+	margin-left: 1em;
+	position: relative;
+	z-index: 1;
+	bottom: 0.75em;
+}
+
+#up_bezopastnost {
+	font-size: 18px;
+}
+#kaska,#eff,#poter {
+	margin-left: 1em;
+	position: relative;
+	z-index: 1;
+	bottom: 0.75em;
+}
+#vector,#vector2,#vector3 {
+	margin-left: -2.5em;
+}
+#up_bezopastnost,#up_eff,#down_poteri {
+	font-size: 18px;
+	line-height: 10px;
+}
+#ob, #ef, #ot{
+	font-size: 16px;
+	color: #72787D;
+}
+#div1 {
+	display: flex;
+	margin-left: 16em;
+	margin-top: 7em;
+	justify-content: space-around;
+	margin-left: auto;
+	margin-right: auto;
+}
+#chaos2 {
+	color: #72787D;
+	font-size: 20px;
+}
+#chaos {
+	font-size: 32px;
+	margin-top: 4em;
+	line-height: 48px;
+}
+.chaos {
+	text-align: center;
+}
+#poryadok {
+	font-size: 32px;
+	margin-top: 3em;
+	text-align: center;
+}
+#zabota {
+		font-size: 32px;
+		margin-top: 3em;
+}
+#mi {
+	color: #72787D;
+	font-size: 20px;
+	line-height: 32px;
+}
+#help {
+font-weight: bold;
+}
+#img4 {
+
+width: 464px;
+height: 400px;
+margin-top: -23em;
+position: absolute;
+margin-left: 45%;
+}
+
+@media (max-width: 1010px) {
+#img3 {
+	margin-left: -11em;
+	width: 750px;
+}
+}
+@media (min-width: 1001px) and (max-width: 1265px) {
+	#demo2 {
+		margin-left: 16em;
 	}
+	#podrobnee {
+		margin-left: 35em;
+	}
+}
+@media (max-width: 870px) {
+		#div1 {
+			flex-direction: column;
+		}
+		#img4 {
+			margin-top: 3em;
+			margin-left: -1em;		
+		}
+		#img3 {
+			height: 300px;
+		}
+		#up_bezopastnost,#ob,#up_eff,#eff,#down_poteri,#ot {
+			line-height: 24px;
+		}
 		header {
 		margin-left: -280px;
 		}
@@ -122,16 +216,39 @@ margin-top: 3em;
 	header {
 		margin-top: 15px;
 	}
+	#img4 {
+	width: 300px;
+}
 	#logo {
 		width: 200px;
 	}
+	#img3 {
+		width: 600px;
+	}
 }
+
 @media (max-width: 400px) {
+
+	#dostavka,#poryadok,#zabota {
+		font-size: 20px;
+	}
+	#chaos {
+		font-size: 21px;
+	}
+	#chaos2,#mi {
+		font-size: 16px;
+	}
+
 	#logo {
 		width: 150px;
 		margin-left: 10px;
 	}
-
+	#img4 {
+	width: 220px;
+}
+#img3 {
+	width: 500px;
+}
 		header {
 		flex-direction: column;
 		margin-left: -5px;
