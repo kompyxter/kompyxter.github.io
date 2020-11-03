@@ -1,0 +1,264 @@
+
+#logo {
+margin-top: 8.5px;
+margin-left: 37.33px;
+}
+#img2 {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#cars {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+body {
+	font-family: "Arial", sans-serif;
+}
+header {
+	margin-top: -31px;
+	display: flex;
+}
+
+#main {
+	color: #036FC7;
+	margin-left: 450px;
+	display: flex;
+}
+a {
+	text-decoration: none;
+}
+a:not(#main,#demo) {
+	color: #72787D;
+}
+#product,#about,#process,#nadezhnost,#klient,#contact {
+	margin-left: 23px;
+	color: #72787D;
+}
+#main,#product,#about,#process,#nadezhnost,#klient,#contact {
+	font-size: 16px;
+}
+#demo {
+	margin-top: -8px;
+	margin-left: 40px;
+	background: #212B31;
+	color: #fff;
+	width: 150px;
+	border-radius: 4px;
+	height: 34px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#dostavka {
+	font-size: 48px;
+	display: flex;
+	justify-content: center;
+	margin-top: 1.8em;
+}
+#demo2 {
+margin-left: 26em;
+background: #212B31;
+color: #fff;
+width: 150px;
+border-radius: 4px;
+height: 34px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 3em;
+}
+#podrobnee {
+	background: #fff;
+	color: #000;
+	border: 3px solid #DADEDF;
+	width: 150px;
+	height: 34px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 48em;
+	margin-top: -2.3em;
+}
+ @media (max-width: 1000px) {
+ 	#demo2 {
+ 		margin-left: 1em;
+ 	}
+ 	#dostavka {
+ 		font-size: 28px;
+ 	}
+ 	#podrobnee {
+ 		margin-left: 11em;
+ 	}
+ 	#img2,#cars {
+ 		width: 100%;
+ 	}
+ 		#product,#about,#process,#nadezhnost,#klient,#contact,#main {
+		font-size: 16px;
+	}
+		#demo {
+		border-radius: 2px;
+	}
+	#logo {
+		margin-left: 5px;
+		width: 150px;
+	}
+}
+
+#eff {
+	margin-left: 1em;
+	position: relative;
+	z-index: 1;
+	bottom: 0.75em;
+}
+
+#up_bezopastnost {
+	font-size: 18px;
+}
+#kaska,#eff,#poter {
+	margin-left: 1em;
+	position: relative;
+	z-index: 1;
+	bottom: 0.75em;
+}
+#vector,#vector2,#vector3 {
+	margin-left: -2.5em;
+}
+#up_bezopastnost,#up_eff,#down_poteri {
+	font-size: 18px;
+	line-height: 10px;
+}
+#ob, #ef, #ot{
+	font-size: 16px;
+	color: #72787D;
+}
+#div1 {
+	display: flex;
+	margin-left: 16em;
+	margin-top: 7em;
+	justify-content: space-around;
+	margin-left: auto;
+	margin-right: auto;
+}
+#chaos2 {
+	color: #72787D;
+	font-size: 20px;
+}
+#chaos {
+	font-size: 32px;
+	margin-top: 4em;
+	line-height: 48px;
+}
+.chaos {
+	text-align: center;
+}
+#poryadok {
+	font-size: 32px;
+	margin-top: 3em;
+	text-align: center;
+}
+#zabota {
+		font-size: 32px;
+		margin-top: 3em;
+}
+#mi {
+	color: #72787D;
+	font-size: 20px;
+	line-height: 32px;
+}
+#help {
+font-weight: bold;
+}
+#img4 {
+
+width: 464px;
+height: 400px;
+margin-top: -23em;
+position: absolute;
+margin-left: 45%;
+}
+
+@media (max-width: 1010px) {
+#img3 {
+	margin-left: -11em;
+	width: 750px;
+}
+}
+@media (min-width: 1001px) and (max-width: 1265px) {
+	#demo2 {
+		margin-left: 16em;
+	}
+	#podrobnee {
+		margin-left: 35em;
+	}
+}
+@media (max-width: 870px) {
+		#div1 {
+			flex-direction: column;
+		}
+		#img4 {
+			margin-top: 3em;
+			margin-left: -1em;		
+		}
+		#img3 {
+			height: 300px;
+		}
+		#up_bezopastnost,#ob,#up_eff,#eff,#down_poteri,#ot {
+			line-height: 24px;
+		}
+		header {
+		margin-left: -280px;
+		}
+}
+@media (min-width: 301px) and (max-width: 450px) {
+	header {
+		margin-top: 15px;
+	}
+	#img4 {
+	width: 300px;
+}
+	#logo {
+		width: 200px;
+	}
+	#img3 {
+		width: 600px;
+	}
+}
+
+@media (max-width: 400px) {
+
+	#dostavka,#poryadok,#zabota {
+		font-size: 20px;
+	}
+	#chaos {
+		font-size: 21px;
+	}
+	#chaos2,#mi {
+		font-size: 16px;
+	}
+
+	#logo {
+		width: 150px;
+		margin-left: 10px;
+	}
+	#img4 {
+	width: 220px;
+}
+#img3 {
+	width: 500px;
+}
+		header {
+		flex-direction: column;
+		margin-left: -5px;
+		margin-top: 20px;
+	}
+	#demo {
+		margin-top: 30px;
+	}
+	#podrobnee {
+		margin-top: 1em;
+		margin-left: 0.9em;
+	}
+}
