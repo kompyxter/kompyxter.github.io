@@ -1,4 +1,5 @@
 
+
 #logo {
 margin-top: 8.5px;
 margin-left: 37.33px;
@@ -180,10 +181,53 @@ position: absolute;
 margin-left: 45%;
 }
 
+#banners {
+margin-top: 10em;
+margin-left: 13em;
+position: relative;
+}
+#banners img {
+	position: relative;
+}
+#banner6 {
+	top: 4.5em;
+	position: relative;
+	right: 32em;
+}
+#banner1 {
+	right: 10em;
+}
+#banner2 {
+	right: 7.5em;
+}
+#banner3 {
+	right: 4.5em;
+}
+#banner5 {
+	right: -4em;
+}
+@media (max-width: 1400px) {
+	#banners {
+		left: -3em;
+	}
+	#banner6 {
+		left: 5em;
+		top: -0.5em;
+	}
+}
 @media (max-width: 1010px) {
 #img3 {
 	margin-left: -11em;
 	width: 750px;
+}
+#banner4,#banner5 {
+	margin-left: -7em;
+}
+#banner6 {
+	margin-left: 6em;
+}
+#banner5 {
+	margin-left: -3em;
 }
 }
 @media (min-width: 1001px) and (max-width: 1265px) {
@@ -195,6 +239,12 @@ margin-left: 45%;
 	}
 }
 @media (max-width: 870px) {
+		#banners {
+			top: 20em;
+		}
+		#banner6 {
+			left: 0;
+		}
 		#div1 {
 			flex-direction: column;
 		}
@@ -228,7 +278,12 @@ margin-left: 45%;
 }
 
 @media (max-width: 400px) {
-
+	#banners {
+		margin-top: -3em;
+	}
+	#banners img {
+		width: 150px;
+	}
 	#dostavka,#poryadok,#zabota {
 		font-size: 20px;
 	}
@@ -244,10 +299,12 @@ margin-left: 45%;
 		margin-left: 10px;
 	}
 	#img4 {
-	width: 220px;
+		width: 180px;
+		height: 200px;
 }
 #img3 {
-	width: 500px;
+	width: 600px;
+	height: 200px;
 }
 		header {
 		flex-direction: column;
@@ -260,5 +317,15 @@ margin-left: 45%;
 	#podrobnee {
 		margin-top: 1em;
 		margin-left: 0.9em;
+	}
+	#banner6 {
+		margin-left: -8.5em;
+	}
+	#banner5 {
+		position: relative;
+		left: -5em;
+	}
+	#banner3 {
+		margin-left: -3em;
 	}
 }
