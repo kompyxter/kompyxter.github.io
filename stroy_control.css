@@ -403,6 +403,9 @@ position: relative;
 	#banners {
 		margin-top: -3em;
 	}
+	.optimize {
+		top: -3em;
+	}
 	#banners img {
 		width: 150px;
 	}
