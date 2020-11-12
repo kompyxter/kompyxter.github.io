@@ -3,12 +3,82 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="moneyx.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 	<title>moneyx</title>
 </head>
 <body>
 	<header>
-		<img id="logo1" src="img/logo1.png">
-		<img id="logo2" src="img/logo2.png" alt="logo">
+		<img class="logo" src="logo.png">
+			<span class="logo2"><span class="money">MONEYX</span>CHANGE</span>
+			<span id="header-items">
+				<span id="company">Компания</span>
+					<span id="blog">Блог</span>
+						<span id="contact">Контакты</span>
+							<span id="sign_in">Вход</span>	
+									<span id="sign_up">Регистрация</span>
+									</span>
 	</header>
 </body>
 </html>
+<style>
+* {
+	margin: 0;
+}
+body {
+	font-family:'Montserrat', sans-serif;
+}
+.money {
+	font-weight: 700;
+}
+.logo2 {
+	font-size: 20px;
+}
+#company {
+	color: #4E5983;
+	margin-left: 18em;
+}
+#blog {
+	color: #4E5983;
+	margin-left: 4em;
+}
+#contact {
+	color: #4E5983;
+	margin-left: 4em;
+}
+#sign_in {
+	margin-left: 20em;
+	color: #4E5983;
+}
+#sign_up {
+	margin-left: 2em;
+	color: #4E5983;
+	background: #A17FFF;
+	padding: 1em;
+	border-radius: 9%;
+	margin-top: -1em;
+}
+#header-items {
+	display: flex;
+}
+.logo,.logo2 {
+	position: relative;
+	top: 1em;
+}
+.logo {
+	top: 1.2em;
+}
+#change {
+	color: #fff;
+	font-weight: 700;
+	text-align: center;
+	font-size: 50px;
+	position: absolute;
+	top: 3em;
+	left: 3em;
+}
+#bg {
+	width: 100%;
+	margin-top: 1em;
+}
+</style>
