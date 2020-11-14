@@ -9,7 +9,7 @@
 </head>
 <body>
 	<header>
-		<img class="logo" src="logo.png">
+		<img class="logo" src="img/logo.png">
 			<span class="logo2"><span class="money">MONEYX</span>CHANGE</span>
 			<span id="header-items">
 				<span id="company">Компания</span>
@@ -19,6 +19,8 @@
 									<span id="sign_up">Регистрация</span>
 									</span>
 	</header>
+	<img id="bg" src="img/bg.png">
+	<p id="change">Мультивалютный обменный сервис 24/7</p>
 </body>
 </html>
 <style>
@@ -64,6 +66,7 @@ body {
 .logo,.logo2 {
 	position: relative;
 	top: 1em;
+	left: 1em;
 }
 .logo {
 	top: 1.2em;
@@ -80,5 +83,60 @@ body {
 #bg {
 	width: 100%;
 	margin-top: 1em;
+	height: 100vh;
+}
+
+
+
+@media (min-width: 400px) and (max-width: 930px) {
+	#header-items {
+		font-size: 14px;
+	}
+}
+@media (max-width: 1250px) {
+		#sign_in,#sign_up {
+			margin-left: 2em;
+		}
+		#
+}
+@media (max-width: 600px) {
+		#change {
+		left: 0;
+		top: 10em;
+		font-size: 30px;
+	}
+}
+@media (max-width: 300px) {
+	#change {
+		font-size: 20px;
+		margin-top: 10em;
+	}
+	.logo2{
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 500px) {
+	#header-items {
+		flex-direction: column;
+		font-size: 16px;
+	}
+	#company {
+	margin-left: 4em;
+	margin-top: 3em;
+}
+	#sign_up {
+		top: 10em;
+		position: absolute;
+	}
+	#sign_in {
+		margin-top: 6em;
+		margin-left: 5em;
+	}
+
+	#bg {
+		height: 600px;
+	}
+
 }
 </style>
