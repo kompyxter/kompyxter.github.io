@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
@@ -196,6 +196,251 @@ padding-top: 3em;
 	#hi {
 		font-size: 18px;
 		margin-top: 60px;
+	}
+	#work2 {
+		left: 5%;
+		width: 120px;
+		height: 70px;
+		font-size: 14px;
+		white-space: nowrap;
+		margin-top: -150px;
+	}
+	#home {
+		margin-left: -30px;
+		padding: 5px;
+	}
+}
+</style>
+-->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<title>Верстка</title>
+</head>
+<body>
+<header>
+<a href="#" id="cuda">Cuda</a>
+<a href="#" class="header-items" id="home">HOME</a>
+<a href="#" class="header-items" id="about">ABOUT</a>
+<a href="#" class="header-items" id="work">WORK</a>
+<a href="#" class="header-items" id="blog">BLOG</a>
+<a href="#" class="header-items" id="contact">CONTACT</a>
+<span id="hi">Hi there! We are the new kids on the block<br> and we build awesome websites and mobile apps.</span>
+<a href="#" id="work2">WORK WITH US!</a>
+</header>
+
+<div id="header-bottom">
+	<span id="service">SERVICES WE PROVIDE</span>
+	<span id="work3">We are working with both individuals and buisness from all<br> over the globe to create awesome websites and applications.</span>
+	<span id="bottom-header">
+<span class="bottom-header" id="branding" >BRANDING<br> <img id="flag" src="Flag icon.png"> </span>
+<span class="bottom">Lorem ipsum dolor sit amet,<br> consectetuer adipiscing elit,<br> sed diam nonummu nibh.<br></span><br>	
+<span class="bottom-header" id="design">DESIGN<br><img id="karandash" src="Crayon icon.png"></span>
+<span class="bottom">Lorem ipsum dolor sit amet,<br> consectetuer adipiscing elit,<br> sed diam nonummu nibh.<br></span><br>
+<span class="bottom-header">DEVELOPMENT<br><img id="gear" src="Gears icon.png"></span>
+<span class="bottom">Lorem ipsum dolor sit amet,<br> consectetuer adipiscing elit,<br> sed diam nonummu nibh.<br></span><br>
+<span class="bottom-header" id="rocket" >ROCKET SCIENCE<br><img id="rocket_img" src="Rocket icon.png"></span>
+<span class="bottom">Lorem ipsum dolor sit amet,<br> consectetuer adipiscing elit,<br> sed diam nonummu nibh.</span>	
+</span>
+
+</div>
+</body>
+</html>
+
+
+
+<style>
+	* {
+		margin: 0;
+	}
+	a:hover {
+		text-decoration: none;
+		color: #fff;
+	}
+body {
+	font-family:'Montserrat', sans-serif;
+}
+header {
+	height: 596px;
+	background: #87509c;
+}
+#cuda {
+	color: #fff;
+	font-weight: 600;
+	font-size: 40px;
+	top: 70px;
+	position: relative;
+	left: 200px;
+}
+#flag,#gear,#karandash,#rocket_img {
+	position: relative;
+	top: 6.5em;
+}
+.header-items {
+	color: #fff;
+	font-size: 20px;
+	position: relative;
+	top: 70px;
+}
+.bottom-header:not(#rocket) {
+	left: 4em;
+	position: relative;
+}
+#rocket {
+	position: relative;
+	top: -2.5em;
+	left: 8em;
+}
+#home {
+	margin-left: 500px;
+	background: #643a79;
+	padding: 10px;
+	border-radius: 12%;
+}
+#about,#work,#blog,#contact {
+	margin-left: 30px;
+}
+#hi {
+	font-size: 42.2px;
+	font-weight: 700;
+	color: #f7f3ea;
+
+	position: relative;
+	top: 5em;
+	display: flex;
+	justify-content: center;
+}
+#work2 {
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 600;
+	letter-spacing: 0.02em;
+	color: #ffffff;
+	width: 293px;
+	height: 70px;
+	background-color: #eb7d4b;
+	position: relative;
+	top: 280px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	left: 40%;
+}
+#header-bottom {
+	background: #17c2a4;
+	height: 747px;
+}
+#service {
+	font-size: 40px;
+line-height: 29px;
+font-weight: 700;
+letter-spacing: 0.1em;
+color: #ffffff;
+display: flex;
+justify-content: center;
+padding-top: 3em;
+}
+#work3 {
+	display: flex;
+	justify-content: center;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+	color: #ffffff;
+	padding-top: 2em;
+}
+.bottom-header {
+	font-size: 24px;
+	line-height: 18px;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+	color: #ffffff;
+}
+.bottom {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 300;
+	letter-spacing: 0.02em;
+	color: #ffffff;
+	padding-top: 20px;
+	margin-left: -70px;
+}
+#bottom-header {
+	display: flex;
+	justify-content: center;
+	padding-top: 3em;
+	text-transform: uppercase;
+}
+#rocket {
+	line-height: 40px;
+}
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+	.bottom-header,#rocket {
+		position: static;
+		left: 0;
+		top: 0;
+	}
+}
+@media (max-width: 600px) {
+	#hi {
+		font-size: 25px;
+	}
+	#bottom-header {
+		display: block;
+	}
+	#service {
+		line-height: 50px;
+	}
+	#header-bottom {
+		height: 1000px;
+	}
+	#cuda {
+		left: 30px;
+	}
+		#home {
+		margin-left: 30px;
+		padding: 5px;
+	}
+	#work2 {
+		left: 20%;
+		width: 130px;
+		height: 70px;
+		font-size: 14px;
+		white-space: nowrap;
+	}
+	header {
+		height: 700px;
+	}
+}
+@media (max-width: 300px) {
+	#cuda {
+		left: 1px;
+	}
+	.header-items {
+		left: -20px;
+	}
+	.header-items:not(#menu) {
+		top: 100px;
+	}
+	#hi {
+		font-size: 18px;
+		margin-top: 60px;
+		margin-left: 0.5em;
+	}
+	#service,#bottom-header {
+		margin-left: 0.5em;
 	}
 	#work2 {
 		left: 5%;
